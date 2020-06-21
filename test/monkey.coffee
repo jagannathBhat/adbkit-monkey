@@ -6,7 +6,7 @@ Connection = require '../src/monkey/connection'
 Client = require '../src/monkey/client'
 MockDuplex = require './mock/duplex'
 
-describe 'Monkey', ->
+describe.skip 'Monkey', ->
 
   describe 'Connection', ->
 
