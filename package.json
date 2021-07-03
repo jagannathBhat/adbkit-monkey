@@ -20,7 +20,7 @@
   "main": "./index",
   "repository": {
     "type": "git",
-    "url": "https://github.com/devicefarmer/adbkit-monkey.git"
+    "url": "https://github.com/DeviceFarmer/adbkit-monkey.git"
   },
   "scripts": {
     "postpublish": "grunt clean",
