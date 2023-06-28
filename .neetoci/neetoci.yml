@@ -1,7 +1,4 @@
 version: v1.0
 global_job_config:
   setup:
-    - neetoci-service start redis 7.0.5
-    - redis-cli
-    - neetoci-service start postgres 13
-    - neetoci-service start elasticsearch 6.5.1
+    - neetoci-service start redis 7.1
