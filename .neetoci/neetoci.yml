@@ -2,11 +2,5 @@ version: v1.0
 global_job_config:
   setup:
     - checkout
-    - neetoci-version node 12
-    - cache restore
-    - npm install
-    - cache store
-  jobs:
-    - name: CiChecks
-      commands:
-        - npm test
+    - ls
+    - git log -1 | cat
