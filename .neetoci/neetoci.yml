@@ -3,4 +3,3 @@ global_job_config:
   setup:
     - neetoci-version ruby 3.2.2
     - neetoci-version node 18.12
-    - neetoci-version cowsay 3.0.4
