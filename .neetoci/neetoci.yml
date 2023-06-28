@@ -1,4 +1,6 @@
 version: v1.0
 global_job_config:
   setup:
-    - neetoci-service start redis 7.1
+    - neetoci-version ruby 3.2.2
+    - neetoci-version node 18.12
+    - neetoci-version cowsay
