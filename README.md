@@ -4,7 +4,7 @@
 
 ## Getting started
 
-Install via NPM:
+Install via NPM
 
 ```bash
 npm install --save adbkit-monkey
